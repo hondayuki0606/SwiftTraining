@@ -11,6 +11,11 @@ import GameplayKit
 
 class GameScene: SKScene {
     
+    enum Optional<Wrapped>{
+        case none
+        case some(Wrapped)
+    }
+    
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
     
@@ -35,6 +40,21 @@ class GameScene: SKScene {
                                               SKAction.fadeOut(withDuration: 0.5),
                                               SKAction.removeFromParent()]))
         }
+            
+            let none = Optional<Int>.none
+            print(".none: \(String(describing: none))")
+            
+            let some = Optional<Int>.some(1)
+            print(".some: \(String(describing: some))")
+        
+            let some1 = Optional.some(1) // Optional<Int>型
+            // let none1: Int? = Optional.none // コンパイルエラー
+            
+            var a: Int?
+            
+            a = nil // nilリテラルの代入による.noneの生成
+            // a = Optional(1) // イニシャライザによる.someの生成 コンパイルエラー 'ViewController.Optional<Wrapped>' cannot be constructed because it has no accessible initializers
+            a = 1 // 値の代入による.someの生成
     }
     
     
