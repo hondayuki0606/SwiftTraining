@@ -11,10 +11,10 @@ import GameplayKit
 
 class GameScene: SKScene {
     
-    enum Optional<Wrapped>{
-        case none
-        case some(Wrapped)
-    }
+//    enum Optional<Wrapped>{
+//        case none
+//        case some(Wrapped)
+//    }
     
     private var label : SKLabelNode?
     private var spinnyNode : SKShapeNode?
@@ -55,6 +55,22 @@ class GameScene: SKScene {
             a = nil // nilリテラルの代入による.noneの生成
             // a = Optional(1) // イニシャライザによる.someの生成 コンパイルエラー 'ViewController.Optional<Wrapped>' cannot be constructed because it has no accessible initializers
             a = 1 // 値の代入による.someの生成
+        
+        // PAGE 56
+        let optionalInt: Int? = nil
+        let optionalString: String? = nil
+        
+        print(type(of: optionalInt), String(describing: optionalInt))
+        print(type(of: optionalString), String(describing: optionalString))
+        
+        let nila:Int? = nil
+        // let nulb: = nil 定数の型が決まらないため、コンパイルエラー
+        
+        let optionalInt2 = Optional(1)
+        let optionalString2 = Optional("a")
+        
+        print(type(of: optionalInt2), String(describing: optionalInt2))
+        print(type(of: optionalString2), String(describing: optionalString2))
     }
     
     
