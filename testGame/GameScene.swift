@@ -71,6 +71,11 @@ class GameScene: SKScene {
         
         print(type(of: optionalInt2), String(describing: optionalInt2))
         print(type(of: optionalString2), String(describing: optionalString2))
+        
+        // ■TODO: PAGE 57
+        // 値の代入による.someの生成
+        let optionalInt1: Int? = 1
+        print(type(of: optionalInt1), String(describing: optionalInt1))
     }
     
     
