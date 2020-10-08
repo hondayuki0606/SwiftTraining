@@ -71,13 +71,22 @@ class GameScene: SKScene {
         
         print(type(of: optionalInt2), String(describing: optionalInt2))
         print(type(of: optionalString2), String(describing: optionalString2))
-        
-        // ■TODO: PAGE 57
+
+    }
+    
+    func swiftTrainingP57() {
+    // ■TODO: PAGE 57
         // 値の代入による.someの生成
         let optionalInt1: Int? = 1
         print(type(of: optionalInt1), String(describing: optionalInt1))
+        // Optional＜Wrapped＞型のアンラップ--値の取り出し
+        // Optional<Wrapped>型は値を持っていない可能性があるため、
+        // Wrapped型の変数や定数と同じように扱うことはできません。
+        // たとえば、Int?同士の四則演算はコンパイルエラーになります。
+        let a:Int? = 1
+        let b:Int? = 1
+        // a+b// コンパイルエラー
     }
-    
     
     func touchDown(atPoint pos : CGPoint) {
         if let n = self.spinnyNode?.copy() as! SKShapeNode? {
