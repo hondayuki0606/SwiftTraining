@@ -86,6 +86,42 @@ class GameScene: SKScene {
         let a:Int? = 1
         let b:Int? = 1
         // a+b// コンパイルエラー
+        
+        // オプショナルバインディング
+        // ??演算子
+        // 強制アンラップ
+        
+    }
+    
+    func swiftTrainingP57_58_オプショナルバインディング() {
+    // ■TODO: PAGE 57-58 オプショナルバインディング
+        // オプショナルバインディングでは、条件分岐分や繰り返し文の条件に
+        // Optional<Wrapped>の値を指定する。
+        // 値の存在が保証されている分岐内では、Wrapped型に直接アクセスすることが出来ます。
+        // オプショナルバインディングはif-let文を用いて行います。
+//        if let 定数名 = Optional<Wrapped>型の値{
+//            値が存在する場合に実行される文
+//        }
+        // 実例
+        let optionalA = Optional("a") // String?型
+        if let a = optionalA {
+            print(type(of:a))// optionalに値がある場合のみ表示される
+        }
+    }
+    
+    func swiftTrainingP_58_はてなはてな演算子() {
+        // ■TODO: PAGE 58 はてなはてな演算子
+            // Optional<Wrapped>型に値が存在しない、場合のデフォルト値では、
+            // デフォルト値を指定するには、中値演算子??を使います。
+            // ??演算子の式は左辺にOptional<Wrapped>型の値、右辺にはWrappedアタ型の値をとります。
+            // 左辺にOptional値がない場合、右辺のWrapped型を返します。
+            // 実例
+        let optionalInt1: Int? = 1
+        let int1 = optionalInt1 ?? 3 // 1
+        
+        let optionalInt2: Int? = nil
+        let int2 = optionalInt2 ?? 3 // 3
+        
     }
     
     func touchDown(atPoint pos : CGPoint) {
