@@ -124,6 +124,16 @@ class GameScene: SKScene {
         
     }
     
+    func swiftTrainingP_59_強制アンラップ() {
+        // ■TODO: PAGE 59 強制アンラップ
+            // 強制アンラップとはOptional<Wrapped>型からWrapped型を強制的に取り出す方法です。
+            // 強制というのは値が存在しなければ、実行次にエラーになるということです。
+            // 強制アンラップを行う場合は！を使用します。
+        let a:Int? = 1
+        let b:Int? = 2
+        a! + b! //3
+        
+    }
     func touchDown(atPoint pos : CGPoint) {
         if let n = self.spinnyNode?.copy() as! SKShapeNode? {
             n.position = pos
