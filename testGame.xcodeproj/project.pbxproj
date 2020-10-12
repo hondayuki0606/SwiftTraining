@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF8642E7253356F20054153A /* TrainingP59_60.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8642E6253356F20054153A /* TrainingP59_60.swift */; };
 		AFDA114623B33A7000FB0B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA114523B33A7000FB0B5D /* AppDelegate.swift */; };
 		AFDA114823B33A7000FB0B5D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFDA114723B33A7000FB0B5D /* GameScene.sks */; };
 		AFDA114A23B33A7000FB0B5D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFDA114923B33A7000FB0B5D /* Actions.sks */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF8642E6253356F20054153A /* TrainingP59_60.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP59_60.swift; sourceTree = "<group>"; };
 		AFDA114223B33A7000FB0B5D /* testGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDA114523B33A7000FB0B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFDA114723B33A7000FB0B5D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF8642E5253356AF0054153A /* SwiftTraining */ = {
+			isa = PBXGroup;
+			children = (
+				AF8642E6253356F20054153A /* TrainingP59_60.swift */,
+			);
+			path = SwiftTraining;
+			sourceTree = "<group>";
+		};
 		AFDA113923B33A7000FB0B5D = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 		AFDA114423B33A7000FB0B5D /* testGame */ = {
 			isa = PBXGroup;
 			children = (
+				AF8642E5253356AF0054153A /* SwiftTraining */,
 				AFDA114523B33A7000FB0B5D /* AppDelegate.swift */,
 				AFDA114723B33A7000FB0B5D /* GameScene.sks */,
 				AFDA114923B33A7000FB0B5D /* Actions.sks */,
@@ -267,6 +278,7 @@
 			files = (
 				AFDA114C23B33A7000FB0B5D /* GameScene.swift in Sources */,
 				AFDA114E23B33A7000FB0B5D /* GameViewController.swift in Sources */,
+				AF8642E7253356F20054153A /* TrainingP59_60.swift in Sources */,
 				AFDA114623B33A7000FB0B5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
