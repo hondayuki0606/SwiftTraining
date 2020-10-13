@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF8642E7253356F20054153A /* TrainingP59_60.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8642E6253356F20054153A /* TrainingP59_60.swift */; };
+		AF8642E92535C7A70054153A /* TrainingP60_61.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8642E82535C7A70054153A /* TrainingP60_61.swift */; };
 		AFDA114623B33A7000FB0B5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA114523B33A7000FB0B5D /* AppDelegate.swift */; };
 		AFDA114823B33A7000FB0B5D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFDA114723B33A7000FB0B5D /* GameScene.sks */; };
 		AFDA114A23B33A7000FB0B5D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFDA114923B33A7000FB0B5D /* Actions.sks */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		AF8642E6253356F20054153A /* TrainingP59_60.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP59_60.swift; sourceTree = "<group>"; };
+		AF8642E82535C7A70054153A /* TrainingP60_61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP60_61.swift; sourceTree = "<group>"; };
 		AFDA114223B33A7000FB0B5D /* testGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDA114523B33A7000FB0B5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFDA114723B33A7000FB0B5D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				AF8642E6253356F20054153A /* TrainingP59_60.swift */,
+				AF8642E82535C7A70054153A /* TrainingP60_61.swift */,
 			);
 			path = SwiftTraining;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				AFDA114E23B33A7000FB0B5D /* GameViewController.swift in Sources */,
 				AF8642E7253356F20054153A /* TrainingP59_60.swift in Sources */,
 				AFDA114623B33A7000FB0B5D /* AppDelegate.swift in Sources */,
+				AF8642E92535C7A70054153A /* TrainingP60_61.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
