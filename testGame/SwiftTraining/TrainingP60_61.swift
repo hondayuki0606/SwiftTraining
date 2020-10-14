@@ -18,3 +18,12 @@ func mapメソッドとflatMapメソッド60(){
     let b = a.map({value in value * 2}) // 34
     type(of:b)// Optional<Int>.Type
 }
+
+func mapメソッドとflatMapメソッド61(){
+//    また、map()メソッドを用いて、別の方に変換することもできます。
+//    次の例では、Int?型の定数aに対して、Int型をString型に変換するクロージャを実行し、
+//    結果としてString?型の値'17'を受け取っています。
+    let a = Optional(17)
+    let b = a.map({value in String(value)}) // '17'
+    type(of:b)// Optional<String>.Type
+}
