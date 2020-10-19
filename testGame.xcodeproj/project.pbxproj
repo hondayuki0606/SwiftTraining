@@ -20,6 +20,7 @@
 		AFDA115623B33A7100FB0B5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDA115423B33A7100FB0B5D /* LaunchScreen.storyboard */; };
 		AFDA116123B33A7100FB0B5D /* testGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA116023B33A7100FB0B5D /* testGameTests.swift */; };
 		AFDA116C23B33A7100FB0B5D /* testGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA116B23B33A7100FB0B5D /* testGameUITests.swift */; };
+		AFFA4F58253DBC6E002DE8F2 /* TrainingP62.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F57253DBC6E002DE8F2 /* TrainingP62.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		AFDA116723B33A7100FB0B5D /* testGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDA116B23B33A7100FB0B5D /* testGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testGameUITests.swift; sourceTree = "<group>"; };
 		AFDA116D23B33A7100FB0B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA4F57253DBC6E002DE8F2 /* TrainingP62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP62.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				AF8642E6253356F20054153A /* TrainingP59_60.swift */,
 				AF8642E82535C7A70054153A /* TrainingP60_61.swift */,
 				AF8642EA2539F7260054153A /* TrainingP61_62.swift */,
+				AFFA4F57253DBC6E002DE8F2 /* TrainingP62.swift */,
 			);
 			path = SwiftTraining;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				AFDA114E23B33A7000FB0B5D /* GameViewController.swift in Sources */,
 				AF8642E7253356F20054153A /* TrainingP59_60.swift in Sources */,
 				AF8642EB2539F7260054153A /* TrainingP61_62.swift in Sources */,
+				AFFA4F58253DBC6E002DE8F2 /* TrainingP62.swift in Sources */,
 				AFDA114623B33A7000FB0B5D /* AppDelegate.swift in Sources */,
 				AF8642E92535C7A70054153A /* TrainingP60_61.swift in Sources */,
 			);
