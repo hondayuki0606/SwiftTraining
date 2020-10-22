@@ -32,4 +32,17 @@ class TrainingP64 {
         let int = tuple.0 // 1
         let string = tuple.1 // "a"
     }
+    func タプル型（複数の型をまとめる型）_65(){
+//        要素名によるアクセス
+//        タプルの定義時に各要素に名前をつけ、その名前を通じて要素にアクセス
+//        することもできます。要素名を定義するには、タプルの要素の前に
+//        要素名：を追加して、{要素名１：要素１、要素名２；要素２}のように書きます。
+//        次の例では、{Int,String}型のタプルの要素にそれぞれint,Stringという名前を定義し、
+//        tuple.int,tupel.stringで各要素にアクセスしています。
+        let tuple = (int: 1,String:"a")
+        tuple.int // 1
+        tuple.String // "a"
+        
+        
+    }
 }
