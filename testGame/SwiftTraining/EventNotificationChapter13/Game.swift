@@ -42,5 +42,14 @@ class Game {
 }
 let delegate = TwoPersonsGameDelegate()
 var twoPersonsGame = Game()
-twoPersonsGame.delegate = delegate // エラーが発生 Expressions are not allowed at the top level
-twoPersonsGame.start() // エラーが発生 Expressions are not allowed at the top level
+// twoPersonsGame.delegate = delegate // エラーが発生 Expressions are not allowed at the top level
+// twoPersonsGame.start() // エラーが発生 Expressions are not allowed at the top level
+//ここでは、プレイヤーの人数とゲームの開始、終了時の処理を異常するための
+//インターフェイスをGameDelefateプロトコルとして宣言しています。
+//Two PersonsGam DelefagatクラスはこのGame Delegateプロトコルに準拠したクラスです。
+//GameクラスはDelegateプロパティを持っており、その型はGameDelegateです。
+//Swiftでは、プロトコルも型として扱うことができるため、Delegateプロパティには
+//GameDelegateプロパティに準拠した値であれば、なんでも代入できます。
+//GameクラスはStartメソッドの中で、このDelegateプロパティを通じて、デリゲート先にプレイヤーの人数を
+//問い合わせていきます。またゲームの開始、終了のタイミングをデリゲート先に伝えていきます。
+
