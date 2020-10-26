@@ -53,3 +53,22 @@ var twoPersonsGame = Game()
 //GameクラスはStartメソッドの中で、このDelegateプロパティを通じて、デリゲート先にプレイヤーの人数を
 //問い合わせていきます。またゲームの開始、終了のタイミングをデリゲート先に伝えていきます。
 
+//■命名規則
+//デリゲートパターンでは、デリゲート先にデリゲート元から呼び出される
+//メソッド群を実装する必要があります。
+//どのようなメソッド群を実装する必要があるかはプロトコルとして宣言します。
+//プロトコルやメソッドの命名については、Cocoa、Cocoa　Touchフレームワーク内で
+//利用されているデリゲートパターンが使われているコンポーネントの中でも特に利用頻度が高いものの１つですが、
+//そのデリゲートメソッドのうちUITableViewのセルがタップされた際に実行される
+//デリゲートメソッドは次のように宣言されています。
+
+//以下は、TableViewで最も使用されるデリゲートパターン
+//public protocol UITableViewDelegate : NSObjectProtocol,
+//                                      UIScrollViewDelegate{
+//    
+//    optional public func tableView(
+//        _ tableView: UITableView
+//        didSelectRowAt indexPath: IndexPath)
+//}
+
+
