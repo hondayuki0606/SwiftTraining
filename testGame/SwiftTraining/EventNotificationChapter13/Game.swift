@@ -63,12 +63,34 @@ var twoPersonsGame = Game()
 //デリゲートメソッドは次のように宣言されています。
 
 //以下は、TableViewで最も使用されるデリゲートパターン
-//public protocol UITableViewDelegate : NSObjectProtocol,
-//                                      UIScrollViewDelegate{
-//    
-//    optional public func tableView(
-//        _ tableView: UITableView
-//        didSelectRowAt indexPath: IndexPath)
-//}
+public protocol UITableViewDelegate : NSObjectProtocol,
+                                      UIScrollViewDelegate{
+    
+    optional public func tableView(
+        _ tableView: UITableView
+        didSelectRowAt indexPath: IndexPath)
+}
 
+//デリゲートパターンでは、様々なタイミングでデリゲート先のメソッド
+//が実行されるため、どのタイミングで呼び出されるということをdidや
+//willといった助動詞を用いて表現します。
+//このメソッドはセルたタップされた直後に実行されるdidSelectを用いています。
+//またデリゲート元はデリゲート先が必要としているである情報を引数を通じて
+//渡します。ここではどのインデックスのせるがタップされたかとIndexPath型は
+//入れ子になった配列の特定のノードを指すための構造体です。
+//さて、ここまでの説明から、次のメソっとで事足りるように思われるかもしれません。
+//func didSelectRow(indexPath : IndexPath)
+
+//しかし、このままでは、複数のプロトコル二従居する際に似たような役割を持った
+//デリゲートメソッド同士の名前が衝突する可能性があります。
+//そこでCocoaメソッドのデリゲートパターンでは、第一引数にデリゲート元のオブジェクトを渡す
+//ことになっています。
+//tableView(_:didSelectRow:)メソッドのデリゲート元は
+//UITableVieクラスであるため、メソッド名はtableViewから始まりこれが
+//名前空間の役割を果たします。
+
+//以上の命名規則をまとめると、次のようになります。
+//・メソッド名はデリゲート元のオブジェクト名から初め、続いてイベントの説明をする
+//・didやwillなどの助動詞を用いてイベントのタイミングを示す
+//・第一引数にはデリゲート元のオブジェクトを渡す
 
