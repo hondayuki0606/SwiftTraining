@@ -94,3 +94,5 @@ public protocol UITableViewDelegate : NSObjectProtocol,
 //・didやwillなどの助動詞を用いてイベントのタイミングを示す
 //・第一引数にはデリゲート元のオブジェクトを渡す
 
+
+
