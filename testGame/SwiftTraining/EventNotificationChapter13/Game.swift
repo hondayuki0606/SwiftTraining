@@ -63,13 +63,13 @@ var twoPersonsGame = Game()
 //デリゲートメソッドは次のように宣言されています。
 
 //以下は、TableViewで最も使用されるデリゲートパターン
-public protocol UITableViewDelegate : NSObjectProtocol,
-                                      UIScrollViewDelegate{
-    
-    optional public func tableView(
-        _ tableView: UITableView
-        didSelectRowAt indexPath: IndexPath)
-}
+//public protocol UITableViewDelegate : NSObjectProtocol,
+//                                      UIScrollViewDelegate{
+//    
+//    optional public func tableView(
+//        _ tableView: UITableView
+//        didSelectRowAt indexPath: IndexPath)
+//}
 
 //デリゲートパターンでは、様々なタイミングでデリゲート先のメソッド
 //が実行されるため、どのタイミングで呼び出されるということをdidや

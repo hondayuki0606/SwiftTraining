@@ -7,7 +7,7 @@
 //
 import Foundation
 
-class delegate {
+class Delegate {
     func start(){
 //    本項では、どのような時にデリゲートパターンを使用するかを説明します。
 //        ２つのオブジェクト間で多くの種類のイベント通知を行う場合
