@@ -24,6 +24,7 @@
 		AFFA4F67253F3381002DE8F2 /* TrainingP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F66253F3381002DE8F2 /* TrainingP64.swift */; };
 		AFFA4F6A254457E0002DE8F2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F69254457E0002DE8F2 /* Game.swift */; };
 		AFFA509C254AE222002DE8F2 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA509B254AE222002DE8F2 /* Delegate.swift */; };
+		AFFA50B9254DB95C002DE8F2 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50B8254DB95C002DE8F2 /* Closure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		AFFA4F66253F3381002DE8F2 /* TrainingP64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP64.swift; sourceTree = "<group>"; };
 		AFFA4F69254457E0002DE8F2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		AFFA509B254AE222002DE8F2 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		AFFA50B8254DB95C002DE8F2 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				AFFA4F69254457E0002DE8F2 /* Game.swift */,
 				AFFA509B254AE222002DE8F2 /* Delegate.swift */,
+				AFFA50B8254DB95C002DE8F2 /* Closure.swift */,
 			);
 			path = EventNotificationChapter13;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				AFFA4F67253F3381002DE8F2 /* TrainingP64.swift in Sources */,
 				AF8642E7253356F20054153A /* TrainingP59_60.swift in Sources */,
 				AF8642EB2539F7260054153A /* TrainingP61_62.swift in Sources */,
+				AFFA50B9254DB95C002DE8F2 /* Closure.swift in Sources */,
 				AFFA509C254AE222002DE8F2 /* Delegate.swift in Sources */,
 				AFFA4F58253DBC6E002DE8F2 /* TrainingP62.swift in Sources */,
 				AFDA114623B33A7000FB0B5D /* AppDelegate.swift in Sources */,
