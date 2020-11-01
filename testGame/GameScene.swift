@@ -21,6 +21,15 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         
+        do{
+            let object = SomeClass(id: 42)
+            
+            let queue = DispatchQueue.main
+            queue.asyncAfter(deadline: .now()+3) {
+                print(object.id)
+            }
+        }
+        
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
         if let label = self.label {

@@ -25,6 +25,7 @@
 		AFFA4F6A254457E0002DE8F2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F69254457E0002DE8F2 /* Game.swift */; };
 		AFFA509C254AE222002DE8F2 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA509B254AE222002DE8F2 /* Delegate.swift */; };
 		AFFA50B9254DB95C002DE8F2 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50B8254DB95C002DE8F2 /* Closure.swift */; };
+		AFFA50BB254EFDD8002DE8F2 /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50BA254EFDD8002DE8F2 /* SomeClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		AFFA4F69254457E0002DE8F2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		AFFA509B254AE222002DE8F2 /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
 		AFFA50B8254DB95C002DE8F2 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		AFFA50BA254EFDD8002DE8F2 /* SomeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				AFFA4F69254457E0002DE8F2 /* Game.swift */,
 				AFFA509B254AE222002DE8F2 /* Delegate.swift */,
 				AFFA50B8254DB95C002DE8F2 /* Closure.swift */,
+				AFFA50BA254EFDD8002DE8F2 /* SomeClass.swift */,
 			);
 			path = EventNotificationChapter13;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				AF8642EB2539F7260054153A /* TrainingP61_62.swift in Sources */,
 				AFFA50B9254DB95C002DE8F2 /* Closure.swift in Sources */,
 				AFFA509C254AE222002DE8F2 /* Delegate.swift in Sources */,
+				AFFA50BB254EFDD8002DE8F2 /* SomeClass.swift in Sources */,
 				AFFA4F58253DBC6E002DE8F2 /* TrainingP62.swift in Sources */,
 				AFDA114623B33A7000FB0B5D /* AppDelegate.swift in Sources */,
 				AF8642E92535C7A70054153A /* TrainingP60_61.swift in Sources */,
