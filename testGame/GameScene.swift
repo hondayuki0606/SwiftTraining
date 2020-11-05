@@ -22,7 +22,7 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         
         do{
-            let object = SomeClass(id: 42)
+            let object = SomeClass2(id: 42)
             
             let queue = DispatchQueue.main
             queue.asyncAfter(deadline: .now()+3) {
