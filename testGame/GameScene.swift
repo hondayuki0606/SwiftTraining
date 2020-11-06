@@ -21,6 +21,15 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         
+        let object1 = SomeClass3(id:42)
+        let object2 = SomeClass3(id:43)
+        
+        let closure = {[weak object1, unowned object2] () -> Void in
+            print(type(of: object1))
+            print(type(of: object2))
+        }
+        closure()
+        
         do{
             let object = SomeClass2(id: 42)
             
