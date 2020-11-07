@@ -22,6 +22,7 @@
 		AFDA116123B33A7100FB0B5D /* testGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA116023B33A7100FB0B5D /* testGameTests.swift */; };
 		AFDA116C23B33A7100FB0B5D /* testGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA116B23B33A7100FB0B5D /* testGameUITests.swift */; };
 		AFDE8F652555B46800BEB8E2 /* SomeClass3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE8F642555B46800BEB8E2 /* SomeClass3.swift */; };
+		AFDE8F672557004C00BEB8E2 /* SomeClass4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE8F662557004C00BEB8E2 /* SomeClass4.swift */; };
 		AFFA4F58253DBC6E002DE8F2 /* TrainingP62.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F57253DBC6E002DE8F2 /* TrainingP62.swift */; };
 		AFFA4F67253F3381002DE8F2 /* TrainingP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F66253F3381002DE8F2 /* TrainingP64.swift */; };
 		AFFA4F6A254457E0002DE8F2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F69254457E0002DE8F2 /* Game.swift */; };
@@ -69,6 +70,7 @@
 		AFDA116B23B33A7100FB0B5D /* testGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testGameUITests.swift; sourceTree = "<group>"; };
 		AFDA116D23B33A7100FB0B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFDE8F642555B46800BEB8E2 /* SomeClass3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass3.swift; sourceTree = "<group>"; };
+		AFDE8F662557004C00BEB8E2 /* SomeClass4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass4.swift; sourceTree = "<group>"; };
 		AFFA4F57253DBC6E002DE8F2 /* TrainingP62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP62.swift; sourceTree = "<group>"; };
 		AFFA4F66253F3381002DE8F2 /* TrainingP64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP64.swift; sourceTree = "<group>"; };
 		AFFA4F69254457E0002DE8F2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				AFFA50BA254EFDD8002DE8F2 /* SomeClass.swift */,
 				AFB971A62552EEE300C2074E /* SomeClass2.swift */,
 				AFDE8F642555B46800BEB8E2 /* SomeClass3.swift */,
+				AFDE8F662557004C00BEB8E2 /* SomeClass4.swift */,
 			);
 			path = EventNotificationChapter13;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				AF8642E7253356F20054153A /* TrainingP59_60.swift in Sources */,
 				AF8642EB2539F7260054153A /* TrainingP61_62.swift in Sources */,
 				AFB971A72552EEE300C2074E /* SomeClass2.swift in Sources */,
+				AFDE8F672557004C00BEB8E2 /* SomeClass4.swift in Sources */,
 				AFFA50B9254DB95C002DE8F2 /* Closure.swift in Sources */,
 				AFFA509C254AE222002DE8F2 /* Delegate.swift in Sources */,
 				AFFA50BB254EFDD8002DE8F2 /* SomeClass.swift in Sources */,

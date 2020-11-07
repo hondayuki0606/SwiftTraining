@@ -21,22 +21,21 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         
-        let object1 = SomeClass3(id:42)
-        let object2 = SomeClass3(id:43)
-        
-        let closure = {[weak object1, unowned object2] () -> Void in
-            print(type(of: object1))
-            print(type(of: object2))
+        let object = SomeClass4(id:42)
+        let closure = {[weak object] () -> Void in
+            if let o = object {
+                print("objectはまだ解放されていません: id => \(o.id)")
+            }else{
+                print("objectは既に削除されました")
+            }
         }
+        print("ローカルスコープ内で実行:",terminator: "")
         closure()
         
-        do{
-            let object = SomeClass2(id: 42)
-            
-            let queue = DispatchQueue.main
-            queue.asyncAfter(deadline: .now()+3) {
-                print(object.id)
-            }
+        let queue = DispatchQueue.main
+        queue.asyncAfter(deadline: .now()+1){
+            print("ローカルスコープ外で実行:",terminator: "")
+            closure()
         }
         
         // Get label node from scene and store it for use later
@@ -58,89 +57,11 @@ class GameScene: SKScene {
                                               SKAction.fadeOut(withDuration: 0.5),
                                               SKAction.removeFromParent()]))
         }
-            
-            let none = Optional<Int>.none
-            print(".none: \(String(describing: none))")
-            
-            let some = Optional<Int>.some(1)
-            print(".some: \(String(describing: some))")
-        
-            let some1 = Optional.some(1) // Optional<Int>型
-            // let none1: Int? = Optional.none // コンパイルエラー
-            
-            var a: Int?
-            
-            a = nil // nilリテラルの代入による.noneの生成
-            // a = Optional(1) // イニシャライザによる.someの生成 コンパイルエラー 'ViewController.Optional<Wrapped>' cannot be constructed because it has no accessible initializers
-            a = 1 // 値の代入による.someの生成
-        
-        // PAGE 56
-        let optionalInt: Int? = nil
-        let optionalString: String? = nil
-        
-        print(type(of: optionalInt), String(describing: optionalInt))
-        print(type(of: optionalString), String(describing: optionalString))
-        
-        let nila:Int? = nil
-        // let nulb: = nil 定数の型が決まらないため、コンパイルエラー
-        
-        let optionalInt2 = Optional(1)
-        let optionalString2 = Optional("a")
-        
-        print(type(of: optionalInt2), String(describing: optionalInt2))
-        print(type(of: optionalString2), String(describing: optionalString2))
 
     }
     
-    func swiftTrainingP57() {
-    // ■TODO: PAGE 57
-        // 値の代入による.someの生成
-        let optionalInt1: Int? = 1
-        print(type(of: optionalInt1), String(describing: optionalInt1))
-        // Optional＜Wrapped＞型のアンラップ--値の取り出し
-        // Optional<Wrapped>型は値を持っていない可能性があるため、
-        // Wrapped型の変数や定数と同じように扱うことはできません。
-        // たとえば、Int?同士の四則演算はコンパイルエラーになります。
-        let a:Int? = 1
-        let b:Int? = 1
-        // a+b// コンパイルエラー
-        
-        // オプショナルバインディング
-        // ??演算子
-        // 強制アンラップ
-        
-    }
     
-    func swiftTrainingP57_58_オプショナルバインディング() {
-    // ■TODO: PAGE 57-58 オプショナルバインディング
-        // オプショナルバインディングでは、条件分岐分や繰り返し文の条件に
-        // Optional<Wrapped>の値を指定する。
-        // 値の存在が保証されている分岐内では、Wrapped型に直接アクセスすることが出来ます。
-        // オプショナルバインディングはif-let文を用いて行います。
-//        if let 定数名 = Optional<Wrapped>型の値{
-//            値が存在する場合に実行される文
-//        }
-        // 実例
-        let optionalA = Optional("a") // String?型
-        if let a = optionalA {
-            print(type(of:a))// optionalに値がある場合のみ表示される
-        }
-    }
-    
-    func swiftTrainingP_58_はてなはてな演算子() {
-        // ■TODO: PAGE 58 はてなはてな演算子
-            // Optional<Wrapped>型に値が存在しない、場合のデフォルト値では、
-            // デフォルト値を指定するには、中値演算子??を使います。
-            // ??演算子の式は左辺にOptional<Wrapped>型の値、右辺にはWrappedアタ型の値をとります。
-            // 左辺にOptional値がない場合、右辺のWrapped型を返します。
-            // 実例
-        let optionalInt1: Int? = 1
-        let int1 = optionalInt1 ?? 3 // 1
-        
-        let optionalInt2: Int? = nil
-        let int2 = optionalInt2 ?? 3 // 3
-        
-    }
+
     
     func swiftTrainingP_59_強制アンラップ() {
         // ■TODO: PAGE 59 強制アンラップ
