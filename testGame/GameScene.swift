@@ -21,21 +21,19 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         
-        let object = SomeClass4(id:42)
-        let closure = {[weak object] () -> Void in
-            if let o = object {
-                print("objectはまだ解放されていません: id => \(o.id)")
-            }else{
-                print("objectは既に削除されました")
+        do {
+            let object = SomeClass5(id: 42)
+            let clousure = {[unowned object] () -> Void in
+                print("objectはまだ解放されていません： id=>\(object.id)")
             }
-        }
-        print("ローカルスコープ内で実行:",terminator: "")
-        closure()
-        
-        let queue = DispatchQueue.main
-        queue.asyncAfter(deadline: .now()+1){
-            print("ローカルスコープ外で実行:",terminator: "")
-            closure()
+            print("ローカルスコープ内で実行:",terminator: "")
+            clousure()
+            
+            let queue = DispatchQueue.main
+            queue.asyncAfter(deadline: .now() + 1){
+                print("ローカルスコープ外で実行:")
+                clousure() //この時点で実行時エラーになる
+            }
         }
         
         // Get label node from scene and store it for use later
