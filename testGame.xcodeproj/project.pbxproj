@@ -24,6 +24,7 @@
 		AFDE8F652555B46800BEB8E2 /* SomeClass3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE8F642555B46800BEB8E2 /* SomeClass3.swift */; };
 		AFDE8F672557004C00BEB8E2 /* SomeClass4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE8F662557004C00BEB8E2 /* SomeClass4.swift */; };
 		AFDE8F692558323600BEB8E2 /* SomeClass5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE8F682558323600BEB8E2 /* SomeClass5.swift */; };
+		AFDE8FAC255C37EE00BEB8E2 /* CapchaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE8FAB255C37EE00BEB8E2 /* CapchaList.swift */; };
 		AFFA4F58253DBC6E002DE8F2 /* TrainingP62.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F57253DBC6E002DE8F2 /* TrainingP62.swift */; };
 		AFFA4F67253F3381002DE8F2 /* TrainingP64.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F66253F3381002DE8F2 /* TrainingP64.swift */; };
 		AFFA4F6A254457E0002DE8F2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA4F69254457E0002DE8F2 /* Game.swift */; };
@@ -73,6 +74,7 @@
 		AFDE8F642555B46800BEB8E2 /* SomeClass3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass3.swift; sourceTree = "<group>"; };
 		AFDE8F662557004C00BEB8E2 /* SomeClass4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass4.swift; sourceTree = "<group>"; };
 		AFDE8F682558323600BEB8E2 /* SomeClass5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass5.swift; sourceTree = "<group>"; };
+		AFDE8FAB255C37EE00BEB8E2 /* CapchaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapchaList.swift; sourceTree = "<group>"; };
 		AFFA4F57253DBC6E002DE8F2 /* TrainingP62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP62.swift; sourceTree = "<group>"; };
 		AFFA4F66253F3381002DE8F2 /* TrainingP64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP64.swift; sourceTree = "<group>"; };
 		AFFA4F69254457E0002DE8F2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				AFDE8F642555B46800BEB8E2 /* SomeClass3.swift */,
 				AFDE8F662557004C00BEB8E2 /* SomeClass4.swift */,
 				AFDE8F682558323600BEB8E2 /* SomeClass5.swift */,
+				AFDE8FAB255C37EE00BEB8E2 /* CapchaList.swift */,
 			);
 			path = EventNotificationChapter13;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				AFDE8F692558323600BEB8E2 /* SomeClass5.swift in Sources */,
 				AFFA509C254AE222002DE8F2 /* Delegate.swift in Sources */,
 				AFFA50BB254EFDD8002DE8F2 /* SomeClass.swift in Sources */,
+				AFDE8FAC255C37EE00BEB8E2 /* CapchaList.swift in Sources */,
 				AFFA4F58253DBC6E002DE8F2 /* TrainingP62.swift in Sources */,
 				AFDA114623B33A7000FB0B5D /* AppDelegate.swift in Sources */,
 				AF8642E92535C7A70054153A /* TrainingP60_61.swift in Sources */,
