@@ -14,8 +14,8 @@
             filePath = "testGame/GameScene.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "GameScene"
             landmarkType = "3">
          </BreakpointContent>
@@ -190,8 +190,8 @@
             filePath = "testGame/GameScene.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "didMove(to:)"
             landmarkType = "7">
             <Locations>
@@ -206,9 +206,9 @@
                   urlString = "file:///Users/hondanaoyuki/Desktop/SwiftTraining/testGame/GameScene.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "358">
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "406">
                </Location>
                <Location
                   uuid = "CCA95F93-44AD-47C2-B0BC-598746D3B762 - 6986d873ca870161"
@@ -221,8 +221,8 @@
                   urlString = "file:///Users/hondanaoyuki/Desktop/SwiftTraining/testGame/GameScene.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
                   offsetFromSymbolStart = "32">
                </Location>
             </Locations>
@@ -238,10 +238,90 @@
             filePath = "testGame/GameScene.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "didMove(to:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC829A3A-B26E-497C-A2E8-C28FE5DF5CEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testGame/SwiftTraining/EventNotificationChapter13/Escaping.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "executePrintInt()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC829A3A-B26E-497C-A2E8-C28FE5DF5CEA - ce95f42504ae8301"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "testGame.Executor.executePrintInt() -&gt; ()"
+                  moduleName = "testGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hondanaoyuki/Desktop/SwiftTraining/testGame/SwiftTraining/EventNotificationChapter13/Escaping.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  uuid = "BC829A3A-B26E-497C-A2E8-C28FE5DF5CEA - 42d0e763a507dea3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in testGame.Executor.executePrintInt() -&gt; ()"
+                  moduleName = "testGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hondanaoyuki/Desktop/SwiftTraining/testGame/SwiftTraining/EventNotificationChapter13/Escaping.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "490C3A0E-16E4-49EA-BBA9-A6DCBC548B82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testGame/SwiftTraining/EventNotificationChapter13/Escaping.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C81D2BB3-71D6-4EE3-9103-2FA351F2F23C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testGame/SwiftTraining/EventNotificationChapter13/Escaping.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "Executor"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

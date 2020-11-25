@@ -21,6 +21,9 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         
+        let executor = Executor()
+        executor.executePrintInt()
+        
         do {
             let object = SomeClass5(id: 42)
             let clousure = {[unowned object] () -> Void in
