@@ -13,3 +13,16 @@ import Foundation
 //しかし、引数に複雑な型のクロージャをとる関数の定義は、かなり読みにくくなってしまいます。
 //次の例では、引数のクロージャの方が(Int?,Error?,Array<String>?)->Void型となっており、
 //型の意味の理解には時間がかかります。
+func someMethod(complention:(Int?,Error?,Array<String>?)->Void){}
+//
+//このケースでは、typealiasキーワードを用いて、クロージャの型の型エイリアスを設定すると
+//可読性が高くなります。次の例では、(Int?,Error?,Array<String>?) -> Void型のクロージャに
+//CompletionHandler型という型エイリアスを設定した結果、型の意味の理解が簡単になりました。
+
+typealias CompletionHandler = (Int?,Error?,Array<String>?)->Void
+
+func someMethod(completion: CompletionHandler){}
+
+//このようにすれば、何度も同じクロージャーの型が出てくる場合もコードが
+//煩雑になりません。また、クロージャーが何を意味しているかも型エイリアスを通じて
+//明確にできます。
