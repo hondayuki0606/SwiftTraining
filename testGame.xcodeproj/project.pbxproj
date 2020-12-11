@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AF2405F0256979E40027FC85 /* Escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2405EF256979E40027FC85 /* Escaping.swift */; };
 		AF24066A256EA1360027FC85 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF240669256EA1360027FC85 /* Typealias.swift */; };
+		AF67BCED2583C67800101E9C /* Ofthepattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67BCEC2583C67800101E9C /* Ofthepattern.swift */; };
 		AF8642E7253356F20054153A /* TrainingP59_60.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8642E6253356F20054153A /* TrainingP59_60.swift */; };
 		AF8642E92535C7A70054153A /* TrainingP60_61.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8642E82535C7A70054153A /* TrainingP60_61.swift */; };
 		AF8642EB2539F7260054153A /* TrainingP61_62.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8642EA2539F7260054153A /* TrainingP61_62.swift */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		AF2405EF256979E40027FC85 /* Escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Escaping.swift; sourceTree = "<group>"; };
 		AF240669256EA1360027FC85 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		AF67BCEC2583C67800101E9C /* Ofthepattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ofthepattern.swift; sourceTree = "<group>"; };
 		AF8642E6253356F20054153A /* TrainingP59_60.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP59_60.swift; sourceTree = "<group>"; };
 		AF8642E82535C7A70054153A /* TrainingP60_61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP60_61.swift; sourceTree = "<group>"; };
 		AF8642EA2539F7260054153A /* TrainingP61_62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingP61_62.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				AFDE8FAB255C37EE00BEB8E2 /* CapchaList.swift */,
 				AF2405EF256979E40027FC85 /* Escaping.swift */,
 				AF240669256EA1360027FC85 /* Typealias.swift */,
+				AF67BCEC2583C67800101E9C /* Ofthepattern.swift */,
 			);
 			path = EventNotificationChapter13;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				AFDE8F692558323600BEB8E2 /* SomeClass5.swift in Sources */,
 				AFFA509C254AE222002DE8F2 /* Delegate.swift in Sources */,
 				AF24066A256EA1360027FC85 /* Typealias.swift in Sources */,
+				AF67BCED2583C67800101E9C /* Ofthepattern.swift in Sources */,
 				AFFA50BB254EFDD8002DE8F2 /* SomeClass.swift in Sources */,
 				AF2405F0256979E40027FC85 /* Escaping.swift in Sources */,
 				AFDE8FAC255C37EE00BEB8E2 /* CapchaList.swift in Sources */,
