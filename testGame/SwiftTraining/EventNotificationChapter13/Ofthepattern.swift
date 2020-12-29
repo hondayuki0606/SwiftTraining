@@ -42,3 +42,33 @@ import Foundation
 //nameプロパティは通知を特定するためのタグを,objectプロパティは通知を送ったオブジェクトを、userInfoプロパティは通知に関連する
 //他の情報をそれぞれ意味します。
 //これらの用いたオブジェクト間のイベント通知は、次のような手順で実装します。
+//①通知を受け取るオブジェクトにNotification型の値を引数に持つメソッドを実装する
+//②NoticationCenterクラスに通知を受け取るオブジェクトを登録する
+//③NoticationCenterクラスに通知を投稿する
+//
+//例を通じて具体的な手順を確認しましょう。ここでは、通知を発生させるPoster型と通知を受け取る
+//Observer型を定義し、”SomeNotification”という名前の通知をやり取りします。
+
+class Poster {
+    static let notificationName = Notification.Name("SomeNotification")
+    func post() {
+        NotificationCenter.default.post(
+            name: Poster.notificationName, object: nil)
+    }
+}
+
+class Observer {
+    init() {
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(handleNotification(_:)),
+                                               name: Poster.notificationName,
+                                               object: nil)
+    }
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
+    @objc func handleNotification(_ notidication: Notification) {
+        print("通知を受け取りました")
+    }
+}
